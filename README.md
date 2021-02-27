@@ -3,7 +3,7 @@ An easy and simple approach for URL patterns in Deno. Inspired by [snd's url-pat
 
 ## Usage
 ```javascript
-import { URLPattern } from '<url>'
+import { URLPattern } from 'https://deno.land/x/url_pattern/mod.ts'
 
 const pattern = new URLPattern('/book/:id')
 pattern.match('/book/')              // >>> null
